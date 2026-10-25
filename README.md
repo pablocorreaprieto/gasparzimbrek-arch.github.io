@@ -25,12 +25,12 @@ You can do everything in the browser: open a file on GitHub, click the pencil ic
 
 Text waiting for real content is shown in orange with a dashed outline and marked `[TO FILL ...]` in English and `[À COMPLÉTER ...]` in French. In the code, every placeholder is a `<span class="todo">`.
 
-1. Search both files for `todo`.
-2. Replace the whole span with the real text. For example, `<span class="todo">[TO FILL: city, country]</span>` becomes `Lausanne, Switzerland`.
-3. Delete any block you don't need (the LinkedIn line, the three key facts, a skills group).
-4. To add a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
+1. Search both files for `todo`. What's left is the email, the LinkedIn link and the languages.
+2. Replace the whole span with the real content. The email and LinkedIn lines each have a commented-out example right below them to copy.
+3. Delete any block you don't want shown (for example the languages).
+4. To add a research position, a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
 
-When the role is known, consider adding it to the `<title>` and to the meta description at the top of each page.
+The profile text came from public summaries of your LinkedIn and EPFL pages. Check every date, name and number before going live.
 
 ## Going live (once)
 
