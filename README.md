@@ -21,16 +21,13 @@ You can do everything in the browser: open a file on GitHub, click the pencil ic
 
 **Keep the two languages in sync.** Any change to `index.html` goes into `fr/index.html` too.
 
-## Filling in the placeholders
+## Adding email, LinkedIn and languages
 
-Text waiting for real content is shown in orange with a dashed outline and marked `[TO FILL ...]` in English and `[À COMPLÉTER ...]` in French. In the code, every placeholder is a `<span class="todo">`.
+These lines are not shown yet. Each page has a commented-out example at the top of the left-hand block (`<div class="blk">`). Paste it above the GitHub block, fill it in, and do the same in the other language. For LinkedIn, also add the profile URL to `sameAs` in the JSON-LD block at the top of both pages.
 
-1. Search both files for `todo`. What's left is the email, the LinkedIn link and the languages.
-2. Replace the whole span with the real content. The email and LinkedIn lines each have a commented-out example right below them to copy.
-3. Delete any block you don't want shown (for example the languages).
-4. To add a research position, a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
+The profile text came from public summaries of your LinkedIn and EPFL pages. Check every date, name and number.
 
-The profile text came from public summaries of your LinkedIn and EPFL pages. Check every date, name and number before going live.
+To add a research position, a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
 
 ## Going live (once)
 
@@ -38,7 +35,7 @@ The site is not public yet. GitHub Pages on a free account needs a public reposi
 
 1. **Rename the repository** to `YOUR-USERNAME.github.io` (Settings → General → Repository name). That gives the site the address `https://YOUR-USERNAME.github.io/` with nothing after it.
 2. **Replace the placeholder address.** Every file uses `gaspar-username` where your GitHub username goes (links, canonical URLs, sitemap). Replace all of them, in `index.html`, `fr/index.html`, `404.html`, `sitemap.xml` and `robots.txt`.
-3. **Check that no `todo` is left** in either page.
+3. **Check both pages** once more for facts you want to correct.
 4. **Make the repository public** (Settings → General → Danger Zone → Change visibility).
 5. **Turn on Pages** (Settings → Pages → Build and deployment → Source: Deploy from a branch, Branch: `main`, folder `/ (root)` → Save).
 6. After a minute or two, open `https://YOUR-USERNAME.github.io/` and `https://YOUR-USERNAME.github.io/fr/`.
