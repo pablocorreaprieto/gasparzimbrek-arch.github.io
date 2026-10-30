@@ -128,3 +128,10 @@ footer{grid-column:2; margin-top:8px; padding-top:20px; border-top:1px solid var
   a{border:0; color:inherit}
   footer{display:none}
 }
+
+/* Lab photo in the Research section, aligned with the text column */
+.photo{margin:28px 0 0 164px; max-width:280px}
+.photo img{display:block; width:100%; height:auto; border-radius:3px}
+.photo figcaption{font-size:.8125rem; color:var(--muted); margin-top:6px}
+@media (max-width:520px){ .photo{margin-left:0; max-width:220px} }
+@media print{ .photo{display:none} }
