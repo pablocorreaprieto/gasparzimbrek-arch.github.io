@@ -23,7 +23,7 @@ You can do everything in the browser: open a file on GitHub, click the pencil ic
 
 ## Adding email and LinkedIn, editing languages
 
-Email and LinkedIn are not shown yet. Languages are shown, without levels. Each page has a commented-out example at the top of the left-hand block (`<div class="blk">`). Paste it above the GitHub block, fill it in, and do the same in the other language. For LinkedIn, also add the profile URL to `sameAs` in the JSON-LD block at the top of both pages.
+No email on the site, by choice (30.10.2026). LinkedIn is not shown yet. Languages are shown without levels. Each page has a commented-out example at the top of the left-hand block (`<div class="blk">`). Paste it above the GitHub block, fill it in, and do the same in the other language. For LinkedIn, also add the profile URL to `sameAs` in the JSON-LD block at the top of both pages.
 
 The profile text came from public summaries of your LinkedIn and EPFL pages. Check every date, name and number.
 
