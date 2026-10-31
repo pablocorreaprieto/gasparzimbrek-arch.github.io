@@ -12,7 +12,7 @@ A one-page profile in English, French and Croatian, built as a plain static site
 | `assets/site.css` | Styles shared by all three pages, including dark mode and print |
 | `assets/fonts.css`, `assets/fonts/` | Self-hosted fonts: Source Serif 4 and IBM Plex Sans, both SIL Open Font License 1.1 |
 | `gaspar-zimbrek-turkovic.jpg` | Portrait, 800 × 800 px |
-| `cv/gaspar-zimbrek-turkovic-cv.pdf` | Three-page CV, English (October 2026 version) |
+| `cv/gaspar-zimbrek-turkovic-cv.pdf` | Four-page CV, English (October 2026, airy classic layout) |
 | `assets/site.js` | Unfolds details for printing, sends the contact form |
 | `og-card.jpg` | 1200 × 630 preview image shown when the link is shared |
 | `assets/lab.jpg` | Lab photo in the Research section |
@@ -45,7 +45,7 @@ The site has a contact form at the bottom of each page, hidden until it is conne
 
 ## CV PDF
 
-`cv/gaspar-zimbrek-turkovic-cv.pdf` is a separate three-page CV in English, linked from all three pages. It is not generated from the pages, so update it whenever you change dates, positions or publications on the site.
+`cv/gaspar-zimbrek-turkovic-cv.pdf` is a separate four-page CV in English, linked from all three pages. It is not generated from the pages, so update it whenever you change dates, positions or publications on the site.
 
 ## Highlights and details
 
