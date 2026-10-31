@@ -53,7 +53,7 @@ Each page opens with three highlights. The bullet points under each research pos
 
 ## Address
 
-The site lives at https://gasparzimbrek-arch.github.io/ (French: https://gasparzimbrek-arch.github.io/fr/, Croatian: https://gasparzimbrek-arch.github.io/hr/), published from the `main` branch, folder `/ (root)` (Settings → Pages). The repository has to stay public and keep the name `gasparzimbrek-arch.github.io`, otherwise the address changes.
+The site lives at https://gasparzimbrek.github.io/ (French: https://gasparzimbrek.github.io/fr/, Croatian: https://gasparzimbrek.github.io/hr/), published from the `main` branch, folder `/ (root)` (Settings → Pages). The repository has to stay public and keep the name `gasparzimbrek.github.io`, otherwise the address changes.
 
 ## Later
 
