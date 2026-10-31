@@ -21,11 +21,11 @@ You can do everything in the browser: open a file on GitHub, click the pencil ic
 
 **Keep the two languages in sync.** Any change to `index.html` goes into `fr/index.html` too.
 
-## Adding email and LinkedIn, editing languages
+## Contact block
 
-No email on the site, by choice (30.10.2026). LinkedIn is not shown yet. Languages are shown without levels. Each page has a commented-out example at the top of the left-hand block (`<div class="blk">`). Paste it above the GitHub block, fill it in, and do the same in the other language. For LinkedIn, also add the profile URL to `sameAs` in the JSON-LD block at the top of both pages.
+No email or phone on the site, by choice (30–31.10.2026). The left-hand block (`<div class="blk">`) shows LinkedIn, languages with levels, and GitHub. If the LinkedIn address changes (for example after setting a custom URL), update the link in both pages and in `sameAs` in the JSON-LD block at the top of both pages.
 
-The profile text came from public summaries of your LinkedIn and EPFL pages. Check every date, name and number.
+The profile text comes from your CV (October 2026) and your public LinkedIn and EPFL pages. Check every date, name and number.
 
 To add a research position, a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
 
