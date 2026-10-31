@@ -170,3 +170,5 @@ form.contact button:disabled{opacity:.6; cursor:default}
   .hl li{padding-left:26px}
   .hl li::before{width:18px; height:18px; top:0}
 }
+
+.row .photo{margin:16px 0 0; max-width:240px}
