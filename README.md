@@ -28,7 +28,7 @@ You can do everything in the browser: open a file on GitHub, click the pencil ic
 
 ## Contact block
 
-No email or phone on the site, by choice (30–31.10.2026). The left-hand block (`<div class="blk">`) shows LinkedIn, ORCID, the EPFL people page, GitHub and languages with levels. **Remove the EPFL link when you graduate** (February 2027), since the page will likely disappear. Add Google Scholar there, same pattern, once your profile is public, and add its URL to `sameAs` too. If the LinkedIn address changes (for example after setting a custom URL), update the link in all three pages and in `sameAs` in the JSON-LD block at the top of each page.
+No email or phone on the site, by choice (30–31.10.2026). The left-hand block (`<div class="blk">`) shows LinkedIn, ORCID, Google Scholar, the EPFL people page, GitHub and languages with levels. **Remove the EPFL link when you graduate** (February 2027), since the page will likely disappear. If the LinkedIn address changes (for example after setting a custom URL), update the link in all three pages and in `sameAs` in the JSON-LD block at the top of each page.
 
 The profile text comes from your CV (October 2026) and your public LinkedIn and EPFL pages. Check every date, name and number.
 
