@@ -11,7 +11,9 @@ A one-page profile in English, French and Croatian, built as a plain static site
 | `hr/index.html` | Croatian page |
 | `assets/site.css` | Styles shared by all three pages, including dark mode and print |
 | `assets/fonts.css`, `assets/fonts/` | Self-hosted fonts: Source Serif 4 and IBM Plex Sans, both SIL Open Font License 1.1 |
-| `gaspar-zimbrek-turkovic.jpg` | Portrait |
+| `gaspar-zimbrek-turkovic.jpg` | Portrait, 800 × 800 px |
+| `og-card.jpg` | 1200 × 630 preview image shown when the link is shared |
+| `assets/lab.jpg` | Lab photo in the Research section |
 | `favicon.*`, `apple-touch-icon.png` | Browser and phone icons |
 | `404.html` | Page shown for any missing URL |
 | `sitemap.xml`, `robots.txt` | For search engines |
@@ -24,7 +26,7 @@ You can do everything in the browser: open a file on GitHub, click the pencil ic
 
 ## Contact block
 
-No email or phone on the site, by choice (30–31.10.2026). The left-hand block (`<div class="blk">`) shows LinkedIn, languages with levels, and GitHub. If the LinkedIn address changes (for example after setting a custom URL), update the link in all three pages and in `sameAs` in the JSON-LD block at the top of each page.
+No email or phone on the site, by choice (30–31.10.2026). The left-hand block (`<div class="blk">`) shows LinkedIn, ORCID, the EPFL people page, GitHub and languages with levels. **Remove the EPFL link when you graduate** (February 2027), since the page will likely disappear. Add Google Scholar there, same pattern, once your profile is public, and add its URL to `sameAs` too. If the LinkedIn address changes (for example after setting a custom URL), update the link in all three pages and in `sameAs` in the JSON-LD block at the top of each page.
 
 The profile text comes from your CV (October 2026) and your public LinkedIn and EPFL pages. Check every date, name and number.
 
@@ -36,6 +38,5 @@ The site lives at https://gasparzimbrek-arch.github.io/ (French: https://gasparz
 
 ## Later
 
-- The portrait is 200 × 200 px, which looks soft on high-resolution screens. A square photo of at least 800 × 800 px will be sharper. Save it with the same file name and update the `width` and `height` attributes in all three pages (and in the JSON-LD block at the top of each).
 - To help Google connect your profiles, add their URLs to the `sameAs` list in the JSON-LD block of all three pages.
 - To see how the site shows up in Google, add it to [Google Search Console](https://search.google.com/search-console).
