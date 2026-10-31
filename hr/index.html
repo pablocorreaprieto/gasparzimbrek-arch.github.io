@@ -136,6 +136,7 @@
 <link rel="preload" href="../assets/fonts/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/fonts.css">
 <link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Preskoči na sadržaj</a>
@@ -173,6 +174,14 @@
         <span class="label">GitHub</span>
         <a href="https://github.com/gasparzimbrek-arch" target="_blank" rel="me noopener">gasparzimbrek-arch</a>
       </div>
+      <div class="cv-link">
+        <span class="label">CV</span>
+        <a href="../cv/gaspar-zimbrek-turkovic-cv.pdf" download>Preuzmi (PDF, engleski)</a>
+      </div>
+      <div class="contact-link" hidden>
+        <span class="label">Kontakt</span>
+        <a href="#contact">Pošaljite mi poruku</a>
+      </div>
       <div>
         <span class="label">Jezici</span>
         <ul class="langs">
@@ -196,6 +205,15 @@
       </ul>
     </div>
 
+    <section aria-labelledby="h-hl">
+      <h2 id="h-hl">Istaknuto</h2>
+      <ul class="hl">
+        <li><b>Popravljivi epoksid otporan na gorenje.</b> Diplomski rad na Empi, iz kojeg je nastao preprint 2026. Epoksidne mreže koje popravljaju površinska oštećenja i mogu se pet puta ponovno preraditi, a najbolja formulacija i dalje ima ocjenu UL&nbsp;94 V-0.</li>
+        <li><b>Vitrimerni kompoziti.</b> Dobiveni frontalnom polimerizacijom na EPFL-u. Tiol-akrilatni kompoziti s pamćenjem oblika koji se mogu ponovno preraditi.</li>
+        <li><b>Hidrogelovi za senzore pogodni za ispis.</b> Granularni hidrogelovi s dvostrukom mrežom za nosive otporne senzore, ispisani izravnim pisanjem tintom na EPFL-u.</li>
+      </ul>
+    </section>
+
     <section aria-labelledby="h-res">
       <h2 id="h-res">Istraživanje</h2>
       <ol class="cv">
@@ -204,54 +222,62 @@
           <div class="when">veljača – kolovoz 2026.</div>
           <div>
             <span class="what">Diplomski rad</span>
-            <span class="where">Empa, Department of Advanced Fibers, Additives and Chemistry Group (dr.&nbsp;sc. Cédric Hervieu) <span class="loc">· St.&nbsp;Gallen</span></span>
+            <span class="where">Empa, Department of Advanced Fibers, <a href="https://www.empa.ch/web/s402/teamchemistry" target="_blank" rel="noopener">Additives and Chemistry Group</a> (dr.&nbsp;sc. Cédric Hervieu) <span class="loc">· St.&nbsp;Gallen</span></span>
             <p class="detail">Ponovno preradivi duromeri otporni na gorenje na temelju kovalentnih adaptabilnih mreža, dobiveni kemijom aza-Michaelove adicije.</p>
-            <ul class="pts">
+            <details class="more"><summary>Detalji</summary>
+              <ul class="pts">
               <li>Sinteza monomera Grignardovim reakcijama, uz kolonsku i tankoslojnu kromatografiju, kristalizaciju, rotacijsko uparavanje i uklanjanje hlapljivih tvari.</li>
               <li>Potvrda struktura produkata i aza-Michaelove kemije NMR spektroskopijom (uključujući NMR čvrstog stanja smole), modelnim reakcijama, DIP-MS-om i Ramanovom spektroskopijom.</li>
               <li>Priprava epoksidnih smola s β-amino fosfin oksidnim čvorovima (APOE) toplinskim očvršćivanjem te dokaz njihova samozacjeljivanja i ponovne prerade toplim prešanjem.</li>
               <li>Ispitivanje otpornosti na gorenje (UL&nbsp;94, konusna kalorimetrija, PCFC) te elementnih, toplinskih i mehaničkih svojstava.</li>
             </ul>
+            </details>
           </div>
         </li>
         <li class="row">
           <div class="when">veljača – lipanj 2025.</div>
           <div>
             <span class="what">Istraživački projekt na diplomskom studiju</span>
-            <span class="where">Laboratory of Processing of Advanced Composites (prof.&nbsp;Véronique Michaud), EPFL <span class="loc">· Lausanne</span></span>
+            <span class="where"><a href="https://www.epfl.ch/labs/lpac/" target="_blank" rel="noopener">Laboratory for Processing of Advanced Composites</a> (prof.&nbsp;Véronique Michaud), EPFL <span class="loc">· Lausanne</span></span>
             <p class="detail">Frontalna polimerizacija vitrimernih kompozita.</p>
-            <ul class="pts">
+            <details class="more"><summary>Detalji</summary>
+              <ul class="pts">
               <li>Istraživanje tiol-akrilatnih vitrimernih kompozita s izmjenom veza transesterifikacijom, dobivenih frontalnom polimerizacijom, kao održive alternative duromerima.</li>
               <li>Utjecaj koncentracije katalizatora (DMAP) i udjela PET mikročestica (0–10&nbsp;vol.&nbsp;%) na toplinsku stabilnost, mehanička svojstva i dinamiku izmjene veza.</li>
               <li>Dokaz pamćenja oblika, ponovne preradivosti i primjenjivosti u kružnom gospodarstvu.</li>
             </ul>
+            </details>
           </div>
         </li>
         <li class="row">
           <div class="when">rujan 2024. – siječanj 2025.</div>
           <div>
             <span class="what">Istraživački projekt na diplomskom studiju</span>
-            <span class="where">Laboratory for Soft Materials (prof.&nbsp;Esther Amstad), EPFL <span class="loc">· Lausanne</span></span>
+            <span class="where"><a href="https://www.epfl.ch/labs/smal/" target="_blank" rel="noopener">Laboratory for Soft Materials</a> (prof.&nbsp;Esther Amstad), EPFL <span class="loc">· Lausanne</span></span>
             <p class="detail">Granularni hidrogelovi s dvostrukom mrežom za nosive otporne senzore.</p>
-            <ul class="pts">
+            <details class="more"><summary>Detalji</summary>
+              <ul class="pts">
               <li>Razvoj granularnih hidrogelova s dvostrukom mrežom od PAMPS mikrogelova i dubokih eutektičkih otapala na bazi PEG-a.</li>
               <li>Utjecaj molekulske mase PEG-a i vrste akceptora vodikove veze na bubrenje, električnu otpornost, reologiju i ispisivost izravnim pisanjem tintom (DIW).</li>
               <li>Dokaz smičnog razrjeđivanja, oporavka nakon naprezanja i uspješnog 3D ispisa DIW-om.</li>
             </ul>
+            </details>
           </div>
         </li>
         <li class="row">
           <div class="when">siječanj 2022. – svibanj 2024.</div>
           <div>
             <span class="what">Istraživački asistent na prijediplomskom studiju</span>
-            <span class="where">Hickey Research Group, Department of Materials Science and Engineering, Penn State <span class="loc">· University Park, Pennsylvania</span></span>
+            <span class="where"><a href="https://www.ems.psu.edu/directory/robert-hickey" target="_blank" rel="noopener">Hickey Research Group</a>, Department of Materials Science and Engineering, Penn State <span class="loc">· University Park, Pennsylvania</span></span>
             <p class="detail">Hidrogelna vlakna s pamćenjem oblika od triblok kopolimera, dobivena mokrim predenjem.</p>
-            <ul class="pts">
+            <details class="more"><summary>Detalji</summary>
+              <ul class="pts">
               <li>Utjecaj parametara prerade (koncentracija, otapalo, brzina deformacije, promjer igle, brzina ubrizgavanja) na učinkovitost izrade, strukturu i mehanička svojstva vlakana.</li>
               <li>Usporedba otapala (THF i DMF) prema hodu i brzini aktuacije te gustoći rada vlaknastih aktuatora.</li>
               <li>Osmišljavanje pokusa mineralizacije na SOS hidrogelnim vlaknima radi oponašanja mineralizacije kolagenih vlakanaca te analiza kristalizacije istegnutih i neistegnutih vlakana.</li>
               <li>MATLAB kod za obradu video snimaka aktuacije u vodi i kvantifikaciju kinetike aktuacije.</li>
             </ul>
+            </details>
           </div>
         </li>
       </ol>
@@ -259,6 +285,21 @@
         <img src="../assets/lab.jpg" width="480" height="640" alt="Gaspar Zimbrek-Turkovic u laboratorijskoj kuti, sa zaštitnim naočalama i maskom, za laboratorijskim stolom" loading="lazy">
         <figcaption>U laboratoriju</figcaption>
       </figure>
+    </section>
+
+    <section aria-labelledby="h-proj">
+      <h2 id="h-proj">Odabrani projekti</h2>
+      <ol class="cv">
+        <li class="row">
+          <div class="when">2025.</div>
+          <div>
+            <span class="what">OptiFlow, s Decathlonom</span>
+            <span class="where">MGT-555 Innovation &amp; Entrepreneurship in Engineering, EPFL <span class="loc">· drugo mjesto, nagrada IEE 2025.</span></span>
+            <p class="detail">Nosivi RFID sustav pokretan umjetnom inteligencijom, s ultraširokopojasnim pozicioniranjem, koji u stvarnom vremenu prati zalihe na policama kako bi se smanjio nedostatak robe i poboljšala popuna. Izradio ga je šesteročlani tim s Decathlon Sports Switzerland. Bio sam odgovoran za razvoj i integraciju hardvera, testiranje prototipa, analizu održivosti i poslovni model.</p>
+            <p class="detail"><a href="https://actu.epfl.ch/news/self-learning-part-feeder-wins-ai-powered-innova-2/" target="_blank" rel="noopener">EPFL News, 23. veljače 2026. (na engleskom)</a></p>
+          </div>
+        </li>
+      </ol>
     </section>
 
     <section aria-labelledby="h-pub">
@@ -311,7 +352,7 @@
           <div class="when">2025.</div>
           <div>
             <span class="what">Drugo mjesto, EPFL-ova nagrada Innovation &amp; Entrepreneurship in Engineering (IEE)</span>
-            <p class="detail">Za OptiFlow, nosivi RFID sustav pokretan umjetnom inteligencijom, razvijen s Decathlonom za praćenje zaliha na policama u stvarnom vremenu i bolju popunu. Odgovoran za razvoj i integraciju hardvera, testiranje prototipa, analizu održivosti i poslovni model.</p>
+            <p class="detail">Za OptiFlow, izrađen s Decathlonom (vidi <a href="#h-proj">Odabrani projekti</a>).</p>
           </div>
         </li>
         <li class="row">
@@ -334,14 +375,16 @@
         <li class="row">
           <div class="when">2022. – 2024.</div>
           <div>
-            <span class="what">Stipendije, Penn State</span>
-            <ul class="pts">
+            <span class="what">Pet stipendija, Penn State</span>
+            <details class="more"><summary>Detalji</summary>
+              <ul class="pts">
               <li>John and Elizabeth Holmes Teas Scholarship (2022./23., 2023./24.)</li>
               <li>Penn State Metallurgy Alumni Scholarship (2022./23., 2023./24.)</li>
               <li>Materials Science and Engineering Opportunity Hancock Scholarship (2023./24.)</li>
               <li>Product Evaluation Systems, Inc. Scholarship (2023./24.)</li>
               <li>Robert G. and Agnes M. Faber Scholarship (2022./23.)</li>
             </ul>
+            </details>
           </div>
         </li>
       </ol>
@@ -407,6 +450,22 @@
         <li>Microsoft Office</li>
         <li>Adobe Photoshop</li>
       </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="h-contact" hidden>
+      <!-- Contact form via Formspree. To switch it on: replace FORMSPREE_ID below with the form ID, remove "hidden" from this section and from the "contact-link" block in the left column. Do the same in the other two languages. -->
+      <h2 id="h-contact">Kontakt</h2>
+      <p class="detail">Pošaljite mi poruku ovdje. Stiže u moj sandučić, a moja adresa e-pošte ostaje privatna.</p>
+      <form class="contact" action="https://formspree.io/f/FORMSPREE_ID" method="POST" data-ok="Hvala, vaša poruka je poslana." data-err="Nažalost, poruka nije poslana. Pokušajte ponovno kasnije ili mi pišite na LinkedInu.">
+        <label>Ime<input name="name" autocomplete="name" required maxlength="120"></label>
+        <label>Vaša e-pošta<input type="email" name="email" autocomplete="email" required maxlength="200"></label>
+        <label>Poruka<textarea name="message" rows="6" required maxlength="5000"></textarea></label>
+        <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="_subject" value="Poruka s gasparzimbrek-arch.github.io">
+        <input type="hidden" name="_language" value="hr">
+        <button type="submit">Pošalji poruku</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
     </section>
   </main>
 

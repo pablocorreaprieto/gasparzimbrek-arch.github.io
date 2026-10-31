@@ -119,7 +119,8 @@ footer{grid-column:2; margin-top:8px; padding-top:20px; border-top:1px solid var
   .blk > div{min-width:0}
   .blk a{word-break:break-all}
   main{display:block}
-  main > section{margin-top:14px; break-inside:avoid-page}
+  main > section{margin-top:14px}
+  main > section > h2{break-after:avoid}
   .intro{display:grid; grid-template-columns:minmax(0,1fr) 96px; column-gap:20px}
   .lede{font-size:1rem}
   .facts{margin-top:12px}
@@ -130,7 +131,7 @@ footer{grid-column:2; margin-top:8px; padding-top:20px; border-top:1px solid var
 }
 
 /* Lab photo in the Research section, aligned with the text column */
-.photo{margin:28px 0 0 164px; max-width:280px}
+.photo{margin:28px 0 0 164px; max-width:220px}
 .photo img{display:block; width:100%; height:auto; border-radius:3px}
 .photo figcaption{font-size:.8125rem; color:var(--muted); margin-top:6px}
 @media (max-width:520px){ .photo{margin-left:0; max-width:220px} }
@@ -138,3 +139,34 @@ footer{grid-column:2; margin-top:8px; padding-top:20px; border-top:1px solid var
 
 /* 'Open to' line under name and place */
 .open{margin:12px 0 0; font-size:.875rem; line-height:1.45; color:var(--accent); max-width:34ch}
+
+/* Results-first upgrade (31.10.2026) */
+[hidden]{display:none !important}
+.hl{list-style:none; margin:0; padding:0; display:grid; gap:14px; counter-reset:hl}
+.hl li{position:relative; padding-left:34px; max-width:66ch}
+.hl li::before{counter-increment:hl; content:counter(hl); position:absolute; left:0; top:2px; width:22px; height:22px; border-radius:50%;
+  background:var(--accent-soft); color:var(--accent); font-size:.75rem; font-weight:600; display:grid; place-items:center}
+.hl b{font-weight:600}
+details.more{margin-top:6px}
+details.more > summary{cursor:pointer; list-style:none; display:inline-flex; align-items:center; gap:6px; font-size:.875rem; color:var(--accent)}
+details.more > summary::-webkit-details-marker{display:none}
+details.more > summary::before{content:"+"; display:inline-grid; place-items:center; width:16px; height:16px; border:1px solid currentColor; border-radius:3px; font-size:.75rem; line-height:1}
+details.more[open] > summary::before{content:"\2212"}
+details.more > summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.where a{color:inherit}
+form.contact{display:grid; gap:12px; max-width:520px; margin-top:14px}
+form.contact label{display:grid; gap:4px; font-size:.875rem; color:var(--muted)}
+form.contact input, form.contact textarea{font:inherit; font-size:1rem; color:var(--ink); background:transparent; border:1px solid var(--rule); border-radius:4px; padding:8px 10px}
+form.contact input:focus, form.contact textarea:focus{outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent)}
+form.contact button{justify-self:start; font:inherit; font-weight:500; color:#fff; background:var(--accent); border:0; border-radius:4px; padding:9px 18px; cursor:pointer}
+form.contact button:disabled{opacity:.6; cursor:default}
+.form-status{margin:0; font-size:.875rem; color:var(--muted)}
+.hp{position:absolute !important; left:-9999px !important; width:1px; height:1px; overflow:hidden}
+@media print{
+  details.more > summary{display:none}
+  details.more::details-content{content-visibility:visible; display:contents}
+  #contact, .cv-link, .contact-link{display:none !important}
+  .hl{gap:6px}
+  .hl li{padding-left:26px}
+  .hl li::before{width:18px; height:18px; top:0}
+}

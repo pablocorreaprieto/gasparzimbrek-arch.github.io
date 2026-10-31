@@ -12,6 +12,8 @@ A one-page profile in English, French and Croatian, built as a plain static site
 | `assets/site.css` | Styles shared by all three pages, including dark mode and print |
 | `assets/fonts.css`, `assets/fonts/` | Self-hosted fonts: Source Serif 4 and IBM Plex Sans, both SIL Open Font License 1.1 |
 | `gaspar-zimbrek-turkovic.jpg` | Portrait, 800 × 800 px |
+| `cv/gaspar-zimbrek-turkovic-cv.pdf` | Two-page CV, English |
+| `assets/site.js` | Unfolds details for printing, sends the contact form |
 | `og-card.jpg` | 1200 × 630 preview image shown when the link is shared |
 | `assets/lab.jpg` | Lab photo in the Research section |
 | `favicon.*`, `apple-touch-icon.png` | Browser and phone icons |
@@ -31,6 +33,23 @@ No email or phone on the site, by choice (30–31.10.2026). The left-hand block 
 The profile text comes from your CV (October 2026) and your public LinkedIn and EPFL pages. Check every date, name and number.
 
 To add a research position, a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
+
+## Contact form (to switch on once)
+
+The site has a contact form at the bottom of each page, hidden until it is connected. Messages go through Formspree to your inbox, and your email address never appears on the site.
+
+1. Sign up at https://formspree.io with the email address where you want to receive messages, then create a new form.
+2. Copy its form ID (the part after `/f/` in the form's endpoint, for example `xyzabcde`) and send it to Pablo, or do the next step yourself.
+3. In `index.html`, `fr/index.html` and `hr/index.html`: replace `FORMSPREE_ID` with the ID, and remove the word `hidden` from `<section id="contact" ...>` and from `<div class="contact-link" hidden>`.
+4. Send yourself a test message from the live site.
+
+## CV PDF
+
+`cv/gaspar-zimbrek-turkovic-cv.pdf` is a separate two-page CV in English, linked from all three pages. It is not generated from the pages, so update it whenever you change dates, positions or publications on the site.
+
+## Highlights and details
+
+Each page opens with three highlights. The bullet points under each research position are folded behind a **Details** toggle. They unfold automatically when someone prints the page.
 
 ## Address
 
