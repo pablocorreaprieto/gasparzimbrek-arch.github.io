@@ -29,4 +29,103 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/"/>
     <image:image><image:loc>https://gasparzimbrek.github.io/gaspar-zimbrek-turkovic.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/research/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/research/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/research/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/research/"/>
+    <image:image><image:loc>https://gasparzimbrek.github.io/assets/lab.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/fr/research/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/research/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/research/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/research/"/>
+    <image:image><image:loc>https://gasparzimbrek.github.io/assets/lab.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/hr/research/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/research/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/research/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/research/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/research/"/>
+    <image:image><image:loc>https://gasparzimbrek.github.io/assets/lab.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/publications/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/publications/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/publications/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/publications/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/publications/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/fr/publications/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/publications/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/publications/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/publications/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/publications/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/hr/publications/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/publications/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/publications/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/publications/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/publications/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/education/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/education/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/education/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/education/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/education/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/fr/education/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/education/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/education/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/education/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/education/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/hr/education/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/education/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/education/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/education/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/education/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/skills/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/skills/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/skills/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/fr/skills/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/skills/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/skills/"/>
+  </url>
+  <url>
+    <loc>https://gasparzimbrek.github.io/hr/skills/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gasparzimbrek.github.io/skills/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gasparzimbrek.github.io/fr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://gasparzimbrek.github.io/hr/skills/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gasparzimbrek.github.io/skills/"/>
+  </url>
 </urlset>

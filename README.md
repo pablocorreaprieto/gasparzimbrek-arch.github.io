@@ -1,14 +1,14 @@
 # Gaspar Zimbrek-Turkovic, personal website
 
-A one-page profile in English, French and Croatian, built as a plain static site for GitHub Pages. No build step, no framework.
+A short multi-page profile in English, French and Croatian, built as a plain static site for GitHub Pages. No build step, no framework.
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `index.html` | English page (the home page) |
-| `fr/index.html` | French page |
-| `hr/index.html` | Croatian page |
+| `index.html` | English home page: intro, highlights, contact links |
+| `research/`, `publications/`, `education/`, `skills/` | English section pages (each an `index.html`) |
+| `fr/…`, `hr/…` | The same five pages in French and Croatian |
 | `assets/site.css` | Styles shared by all three pages, including dark mode and print |
 | `assets/fonts.css`, `assets/fonts/` | Self-hosted fonts: Source Serif 4 and IBM Plex Sans, both SIL Open Font License 1.1 |
 | `gaspar-zimbrek-turkovic.jpg` | Portrait, 800 × 800 px |
@@ -24,7 +24,7 @@ A one-page profile in English, French and Croatian, built as a plain static site
 
 You can do everything in the browser: open a file on GitHub, click the pencil icon, edit, then **Commit changes**. Once the site is live, a commit to `main` is online about a minute later.
 
-**Keep the three languages in sync.** Any change to `index.html` goes into `fr/index.html` and `hr/index.html` too.
+**Keep the three languages in sync.** Any change to a page goes into its French and Croatian twin too, for example `research/index.html`, `fr/research/index.html` and `hr/research/index.html`. The menu at the top (wordmark, section links, language switch) is repeated in every page, so a new section page means adding its link to all 15 menus and to `sitemap.xml`.
 
 ## Contact block
 
@@ -32,7 +32,7 @@ No phone on the site, by choice. The email has been shown since 31.10.2026. The 
 
 The profile text comes from your CV (October 2026) and your public LinkedIn and EPFL pages. Check every date, name and number.
 
-To add a research position, a job or a degree, copy one whole `<li class="row"> ... </li>` block and edit the copy.
+To add a research position (in `research/`), a degree (in `education/`) or anything similar, copy one whole `<li class="row"> ... </li>` block and edit the copy.
 
 ## Contact form (to switch on once)
 
