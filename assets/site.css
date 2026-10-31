@@ -172,3 +172,6 @@ form.contact button:disabled{opacity:.6; cursor:default}
 }
 
 .row .photo{margin:16px 0 0; max-width:240px}
+
+.role span{display:block}
+.role span+span{margin-top:6px; font-weight:400; color:var(--muted, #5B626C)}
